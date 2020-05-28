@@ -11,7 +11,7 @@ Data Structures
  Red Black trees
  Hashmaps
  Elementary data strucuture -> Linkedlist, stack and queues
-Graph Algorithms
+ Graph Algorithms
 
  Breadth First Search
  Depth First Search
@@ -62,3 +62,31 @@ String
  Tries
  Suffix Tree
  Prefix Array
+
+ - Data Structures
+     - Linear Data Structures
+     - Non-Linear Data Structures
+     - Sortings
+ - Problem-solving Paradigms
+     - Brute Force and Introduction to DP
+     - Greedy
+     - Binary Search
+     - Sliding Window
+ - Graphs
+     - Representation
+     - Graph traversal and basic algorithms
+     - Minimum Spanning tree
+     - Single-Source Shortest Path
+ - Mathematics
+     - Adhoc Problems
+         * Base Number Systems and Binary Exponentiation
+         * Long Arithmetic (BigInteger)
+     - Number Theory
+         * Modular Arithmetic
+         * Prime Numbers
+         * Divisors
+ - Geometry
+     - Points and Lines
+     - Geometric Shapes: triangles, circles, regular polygons
+ - String Processing
+     - Basic String Algorithms
