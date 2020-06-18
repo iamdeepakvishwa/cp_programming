@@ -23,7 +23,6 @@ void Leaders(int arr[],int n){
         for(int j=i+1;j<n;j++){
             if(arr[j]>=arr[i]){
                 break ;
-                l=1;
             }
         }
         if(l==1){
