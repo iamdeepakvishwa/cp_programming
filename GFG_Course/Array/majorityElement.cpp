@@ -38,6 +38,7 @@ int majorityElement1(int arr[],int n){
         }
         if(count == 0){
             index = i;
+            count =1;
         }
     }
     count =0;

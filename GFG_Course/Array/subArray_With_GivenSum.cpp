@@ -22,7 +22,7 @@ int subArray1(int arr[] ,int n,int sum){
     int curSum = arr[0];
     int s =0 ,
     for(int i=1;i<n;i++){
-        while(curSum < sum && s< i-1){
+        while(curSum > sum && s< i-1){
             curSum -= arr[s];
             s++;
         }
