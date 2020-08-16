@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void lpartition(int arr[],int l, int h){
+int lpartition(int arr[],int l, int h){
     int pivot = arr[h];
     int i = l-1;
     for(int j=0;j<h-1;j++){
@@ -20,7 +20,7 @@ void quickSort(int arr[], int low, int high)
     {
         /* pi is partitioning index, arr[p] is now
            at right place */
-        int pi = partition(arr, low, high);
+        int pi = lpartition(arr, low, high);
 
         // Separately sort elements before
         // partition and after partition
