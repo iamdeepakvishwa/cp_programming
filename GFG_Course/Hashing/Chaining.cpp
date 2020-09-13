@@ -28,5 +28,3 @@ struct myHash {
         table[i].push_back(key);
     }
 }
-
-int main()
